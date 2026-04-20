@@ -47,6 +47,7 @@ const Navbar: React.FC = () => {
     { name: 'Services', path: '/services' },
     { name: 'Book a Service', path: '/book' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Demo', path: '/' },
   ];
 
   return (
@@ -116,7 +117,7 @@ const Navbar: React.FC = () => {
                 to="/book"
                 className="btn btn-primary mt-4 w-full"
               >
-                Book Now
+                Book it NOw
               </Link>
             </div>
           </motion.div>
